@@ -1,0 +1,413 @@
+/********************* 2. GOOGLE FONTS *********************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/******************** 4 *********************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/******************** 5 *********************/
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-color: #D4F1F9;
+    background-size: cover;
+    background-position: center; 
+}
+
+/******************** 6 *********************/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/******************** 7 *********************/
+.logo{
+    color:#263159;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/******************** 8 *********************/
+span{
+    color:#6A0228;
+}
+
+/******************** 9 *********************/
+nav ul li{
+    list-style-type: none; 
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+/******************** 10 *********************/
+nav ul li a{
+    color: #263159;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/******************** 11 *********************/
+nav ul li a:hover{
+    color: #9D666E;
+    transition: 0.4s;
+}
+
+/******************** 12 *********************/
+.btn{
+    background-color: #263159;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+/******************** 14 *********************/
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+.name:hover{
+    text-shadow:3px 2px 10px #35858B ;
+  }
+
+/******************** 15 *********************/
+h1{
+    color: #263159;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+/******************** 16 *********************/
+h3{
+    color: #263159;
+    font-size: 25px;
+}
+
+/******************** 17 *********************/
+h4{
+    color:#9D666E;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/******************** 18 *********************/
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+  }  
+.image img{
+    height: 100%;
+    left: 200%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(50%);
+    transition: bottom 1s, left 1s;
+  }
+.image img:hover{
+    left: 195%;
+}
+
+/******************** 19 *********************/
+.closer form{
+    width: 375px;
+    max-width: 100%;
+    position: relative;
+}
+
+/******************** 20 *********************/
+.closer form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #263159;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 45px;
+}
+
+/******************** 21 *********************/
+.closer form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    margin-top: 45px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #263159;
+    box-shadow: 0px 0px 5px #263159, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+
+/******************** 23 *********************/
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #263159;
+}
+
+/******************** 24 *********************/
+.about img{
+    height: auto;
+    width: 300px;
+}
+
+/******************** 25 *********************/
+.about-text{
+    width: 550px;
+}
+
+/******************** 26 *********************/
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/******************** 27 *********************/
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+/******************** 28 *********************/
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/******************** 29 *********************/
+.about-text p{
+    color: #BEEAC2;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/******************** 30 *********************/
+.button{
+    background-color: yellow;
+    color: #006c8a;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid yellow;
+    cursor:pointer;
+}
+
+/******************** 35 *********************/
+.Skills{
+    background: #D4F1F9;
+    width: 100%;
+    padding: 80px 0px;
+}
+.Portofolio{
+    background: #F5FFFD;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+/******************** 36 *********************/
+.title h2{
+    color: #263159;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/******************** 37 *********************/
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+/******************** 38 *********************/
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #263159;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow:hidden;
+    text-align: center;
+}
+
+/******************** 39 *********************/
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: yellow;
+}
+
+/******************** 40 *********************/
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/******************** 41 *********************/
+.pra p{
+    color: #BEEAC2;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+/******************** 42 *********************/
+.card .button{
+    background-color: yellow;
+    color: #006c8a;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid yellow;
+    cursor:pointer;
+}
+
+/******************** 44 *********************/
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #263159;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/******************** 45 *********************/
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/******************** 46 *********************/
+.contact-me .button-two{
+    background-color: yellow;
+    color: #006c8a;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid yellow;
+    cursor:pointer;
+}
+
+/******************** 49 *********************/
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #D4F1F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/******************** 50 *********************/
+footer p:nth-child(1){
+    color: #263159;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/******************** 51 *********************/
+footer p:nth-child(2){
+    color: #263159;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+/******************** 52 *********************/
+.social{
+    display: flex;
+}
+
+/******************** 53 *********************/
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #263159;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+/******************** 54 *********************/
+.end{
+    position: absolute;
+    color: #263159;
+    bottom: 35px;
+    font-size: 14px;
+}
